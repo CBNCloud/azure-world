@@ -1,7 +1,7 @@
 const http = require('http');
 
 const hostname = 'joyphp2.appservice.jkt.cbncloud.co.id';
-const port = 3000;
+const port = 80;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
